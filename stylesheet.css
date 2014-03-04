@@ -3,13 +3,12 @@
 }
 
 body {
-  background-color: black;
+  background-color: #1a1a1c;
   font-family: helvetica;
 }
 
 #blog_link {
   background-color: black;
-  width: 100%;
   height: 30px;
   margin:0;
   color: #4eae49;
@@ -20,10 +19,132 @@ div {
   display:block;
 }
 
-a {
+li a {
   text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: inherit;
 }
+
+#nav_bar_right li {
+  float: right;
+  height: 60px;
+  list-style-type: none;
+  line-height: 60px;
+  width: 60px;
+  color: #dfdfe1;
+}
+
+#nav_bar_left li {
+  float: left;
+  height: 60px;
+  list-style-type: none;
+  line-height: 60px;
+  color: #dfdfe1;
+
+
+}
+
+
+#nav_bar li :hover {
+  color: white;
+}
+
 
 #white_text {
   color:white;
+}
+
+#nav_bar {
+  height: 60px;
+  width: 100%;
+  margin: 0px;
+  color: gray;
+}
+
+#burger {
+  height: 13px;
+  width: 12px;
+}
+
+.container {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#logo {
+  background-image:url('images/logo.png');
+  height: 86px;
+  width: 500px;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+}
+
+#search_box {
+  border-radius: 2px 0 0 2px;
+  padding: 13px 13px;
+  width: 540px;
+  font-size: 18px;
+  height: 22px !important;
+  border: 2px inset;
+  display: inline-block;
+  line-height: 19.8px;
+}
+
+#search_area {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  line-height: 19.8px;
+  vertical-align: middle;
+}
+
+#search_button {
+  height: 52px !important;
+  width: 85px;
+  margin: 0px 0px 0px 0px;
+  margin-left: -5px;
+  display: inline-block;
+  background-color: #3B9233;
+  color: white;
+  font-size: 15px;
+  box-shadow: none;
+  border: none;
+
+}
+
+.social_media_p {
+  color: gray;
+  margin-top: 30px;
+  text-align: center;
+  line-height:19.5px;
+  font-size: 19px;
+}
+
+.social_media_p a {
+  text-decoration: none;
+  color: inherit;
+  font-weight:bold;
+}
+
+#feedback {
+  color: gray;
+  text-align: center;
+  margin-top: 55px;
+}
+.social_media_p a :visited {
+  color: inherit;
+}
+
+#feedback a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#feedback :hover {
+  color: green;
 }
