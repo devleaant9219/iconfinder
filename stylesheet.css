@@ -148,3 +148,44 @@ li a {
 #feedback :hover {
   color: green;
 }
+
+#style-nav {
+  background-color: white;
+  color: #525254;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 18px;
+  border-bottom: 2px solid gray;
+}
+
+#style-tabs a {
+  text-decoration: none;
+  color: inherit;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 12px 4.5px 10px 13.5px;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+}
+
+#style-tabs {
+  height: 40px;
+  width: 700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#style-tabs :hover {
+  border-bottom: 4px solid green;
+  color: green;
+}
+
+#big_white_portion {
+  background-color:white;
+  display:block;
+}
+
+.container {
+
+}
